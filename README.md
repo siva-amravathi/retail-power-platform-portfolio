@@ -58,3 +58,14 @@ This is the live build log of a 6-month structured journey:
 ---
 
 *Building in public. Weekly updates on LinkedIn. New project shipped monthly.*
+
+## Day 1 — 21 May 2026
+
+Built foundation of a retail daily closing system in SharePoint.
+
+- SharePoint site: Retail Operations Hub
+- BusinessUnit list (store master data)
+- DailyClosing list with calculated Total Sales column
+- Microsoft Form for staff submissions
+
+Day 2: Power Automate flow to connect form to list.
