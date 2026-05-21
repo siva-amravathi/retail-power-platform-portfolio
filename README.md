@@ -51,7 +51,7 @@ This is the live build log of a 6-month structured journey:
 
 ## Connect
 
-- LinkedIn: [Siva Krishna Gadiparthi](https://linkedin.com/in/siva-amravathi)
+- LinkedIn:www.linkedin.com/in/siva-gadiparthi
 - Located: Northern Ireland, United Kingdom
 - Open to: Power Platform Consultant, Retail Technology Manager, Business Systems Analyst roles
 
