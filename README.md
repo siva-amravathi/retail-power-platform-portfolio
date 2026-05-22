@@ -69,3 +69,13 @@ Built foundation of a retail daily closing system in SharePoint.
 - Microsoft Form for staff submissions
 
 Day 2: Power Automate flow to connect form to list.
+
+## Day 2 — 22 May 2026
+
+Built a Power Automate flow for the daily closing system.
+
+- Trigger: when a new item is created in DailyClosing list
+- Action: automatic email summary sent to operations manager
+- Tested live — email delivered with store, sales, and banking details
+
+Day 3: add Teams notification and approval step.
