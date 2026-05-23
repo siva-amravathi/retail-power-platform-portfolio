@@ -79,3 +79,14 @@ Built a Power Automate flow for the daily closing system.
 - Tested live — email delivered with store, sales, and banking details
 
 Day 3: add Teams notification and approval step.
+
+## Day 3 — 23 May 2026
+
+Added an approval workflow to the daily closing automation.
+
+- Manager receives an approval request for each new closing
+- Condition checks the approval outcome
+- If approved, the record status is automatically set to Verified
+- Tested end-to-end - approval completed, status updated automatically
+
+Day 4: handle rejected closings and add a Teams notification.
