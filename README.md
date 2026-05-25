@@ -90,3 +90,17 @@ Added an approval workflow to the daily closing automation.
 - Tested end-to-end - approval completed, status updated automatically
 
 Day 4: handle rejected closings and add a Teams notification.
+
+## Day 4 — Rejection Path + Teams Notification
+
+Extended the DailyClosing approval flow to handle rejected closings and added a real-time Teams alert.
+
+**What was built:**
+- Condition False branch → Update item → Status set to "rejected"
+- Teams action "Post message in a chat or channel" added after the trigger
+- Posts a closing summary (Store, Date, Total Sales) to the General channel as Flow bot
+
+**Tested:** Created a test closing, rejected the approval — flow completed (Succeeded), SharePoint Status updated to "rejected", and the Teams message posted correctly.
+
+![Flow structure](screenshots/10_day4_flow_structure.png)
+![Teams notification](screenshots/11_day4_teams_notification.png)
