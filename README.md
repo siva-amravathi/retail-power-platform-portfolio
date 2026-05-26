@@ -104,3 +104,18 @@ Extended the DailyClosing approval flow to handle rejected closings and added a 
 
 ![Flow structure](screenshots/10_day4_flow_structure.png)
 ![Teams notification](screenshots/11_day4_teams_notification.png)
+
+## Day 5 — Polish Fixes
+
+Cleaned up three cosmetic issues in the DailyClosing flow.
+
+**What was fixed:**
+- Added missing spaces in the Teams notification message
+- Changed the rejection status value from "rejected" to "Rejected"
+- Fixed trailing zeros on Total Sales — the calculated column returns text, so the value is converted with float() before formatNumber():
+  `formatNumber(float(triggerOutputs()?['body/Total_x0020_Sales']),'0.00')`
+
+**Tested:** First run failed with a formatNumber type error; diagnosed from run history, corrected the expression, and a clean re-test ran successfully. Teams message and SharePoint status both verified correct.
+
+![Clean Teams message](screenshots/11_day5_teams_clean.png)
+![Successful run](screenshots/12_day5_run_succeeded.png)
